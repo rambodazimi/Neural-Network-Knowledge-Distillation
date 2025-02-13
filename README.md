@@ -1,4 +1,4 @@
-# Knowledge Distillation on Simple Convolutional Neural Networks (CNNs)
+# Neural Network Knowledge Distillation
 
 This repository contains a Python implementation of **Knowledge Distillation** (KD) applied to simple Convolutional Neural Networks (CNNs) using the **CIFAR-10** dataset. The goal is to transfer knowledge from a **larger, more accurate Teacher model** to a **smaller, more efficient Student model**, improving the student's performance through distillation.
 
