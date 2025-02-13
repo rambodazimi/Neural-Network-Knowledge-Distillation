@@ -10,7 +10,6 @@ This repository contains a Python implementation of **Knowledge Distillation** (
 - [Model Architectures](#model-architectures)
 - [Training Procedure](#training-procedure)
 - [Results](#results)
-- [Usage](#usage)
 - [References](#references)
 
 ## Introduction
@@ -96,29 +95,6 @@ The dataset is loaded and preprocessed using `torchvision.datasets` and `torchvi
 | Student | 267K       | \~2 min       | **71.89%**    |
 
 The student model achieves a **higher accuracy when trained using KD** compared to training independently.
-
-## Usage
-
-Clone the repository and run the Jupyter Notebook:
-
-```bash
-git clone https://github.com/yourusername/knowledge-distillation.git
-cd knowledge-distillation
-jupyter notebook knowledge_distillation.ipynb
-```
-
-To train the models individually:
-
-```python
-python train_teacher.py
-python train_student.py
-```
-
-To train the student using knowledge distillation:
-
-```python
-python train_kd.py
-```
 
 ## References
 
